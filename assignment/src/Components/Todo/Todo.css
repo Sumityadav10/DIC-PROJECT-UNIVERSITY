@@ -1,0 +1,79 @@
+.task-adder{
+
+    display: flex;
+    gap:70px;
+    justify-content: center;
+    width: 90%;
+    position: relative;
+    transform: translateX(60px);
+}
+
+.input-task{
+
+    width: 60%;
+}
+
+.input-task input{
+
+    width: 100%;
+}
+
+.to-do-header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0D6EFD;;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+.submissions{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0D6EFD;;
+
+}
+
+.tasks{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.task-input{
+
+    width: 70%;
+}
+
+.clear{
+
+    position: relative;
+    transform: translateX(150px);
+}
+
+
+.head-task{
+
+
+    display: flex;
+    flex-direction: column;
+    
+}

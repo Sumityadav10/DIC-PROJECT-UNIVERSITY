@@ -1,0 +1,65 @@
+.image-box{
+
+    position: absolute;
+top: -7rem;
+z-index: 2;
+margin-left: auto;
+margin-right: auto;
+}
+
+.image-box-image {
+    aspect-ratio: 1/1;
+border-radius: 50%;
+width: 140px;
+height: 140px;
+z-index: 25;
+}
+
+.image-box-div {
+
+    width: 140px;
+height: 140px;
+background-color: #1877F2; /* replace with desired violet color */
+border-radius: 50%;
+position: absolute;
+top: -6px;
+z-index: -10;
+left: 10px;
+}
+
+.name-title{
+    text-align: center;
+margin-top: 7px;
+
+}
+
+
+.name-title-name{
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #1877F2
+}
+
+.name-title-job{
+
+    color: #1877F2; /* Replace with desired violet color */
+text-transform: uppercase;
+font-size: 0.875rem;
+}
+
+
+.quote{
+    color: #1877F2; /* Replace with desired violet color */
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px;
+}
+
+.review-text{
+    text-align: center;
+margin-top: 4px;
+color: #FFCE00; /* Replace with desired slate color */
+}
+

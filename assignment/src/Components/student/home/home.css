@@ -1,0 +1,102 @@
+.homepage {
+    display: flex;
+   
+    align-items: center;
+   
+    
+    /* box-shadow: 0 0 15px 5px grey; */
+    background: white;
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+
+.homepage > .button {
+    background: #1877f2;
+    /* border: 1px solid #1877f2; */
+    
+    position:absolute;
+    top:530px;
+    left: 150px;
+
+    /* background: #FFCE00; */
+    /* border: none; */
+    color: #fff;
+    width: 7rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  z-index: -1;
+  border-radius: 8px;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  
+  transition: all 0.8s;
+
+  }
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  .button:hover {
+    border: 1px solid #1877f2;
+    color: black;
+    border-radius: 8px;
+  }
+
+
+.login-hero{
+
+    display: flex;
+
+}
+
+.cards-student{
+
+  margin-top: 90px;
+  background-color: #EDF2F8 ;
+}
+
+.card-course{
+
+  border: 2px solid #FFCE00;
+  /* background-color: black; */
+
+  
+ 
+}
+
+.card-data{
+
+  background-color: black;
+  color: #FFCE00;
+  border: 2px solid #FFCE00;
+  border-top: none;
+
+}
+
+.card-img-top{
+  
+  border: 2px solid #FFCE00;
+  border-bottom: none;
+  background-color: none;
+}

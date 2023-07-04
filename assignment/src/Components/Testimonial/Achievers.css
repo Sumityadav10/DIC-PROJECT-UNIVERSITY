@@ -1,0 +1,29 @@
+.achievers-box{
+    display: flex;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+justify-content: center;
+align-items: center;
+background-color: #E5E7EB; 
+margin-top: 5rem;
+}
+
+.achievers-title{
+    text-align: center;
+}
+
+.achievers-title h1 {
+    font-size: 2.5rem;
+font-weight: bold;
+}
+
+.achievers-review {
+    background-color: #FFCE00; 
+height: 4px;
+width: 20%;
+margin-top: 1px;
+margin-left: auto;
+margin-right: auto;
+}
+

@@ -1,0 +1,89 @@
+
+.icons {
+  
+    /* border: 2px solid #ffffff59; */
+    /* width: 100%; */
+   
+    background: black;
+    /* backdrop-filter: blur(10px); */
+    color: white;
+    z-index: 1;
+    /* padding: 20px 25px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+    
+  }
+  
+  
+  .icon-container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .icon {
+    border: 1px solid #ffffff88;
+    padding: 17px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    gap: 10px;
+    justify-content: center;
+    transition: all 0.5s;
+    margin-bottom: 25px;
+    text-decoration: none;
+  }
+  .icon .i  {
+    font-size: 27px;
+  }
+  
+  #facebook {
+    color: #1771e6;
+    border: 1px solid #1771e6;
+  }
+  #facebook:hover {
+    background-color: #1771e6;
+    color: #fff;
+  }
+  
+  #twitter {
+    color: #1c99e6;
+    border: 1px solid #1c99e6;
+  }
+  #twitter:hover {
+    background-color: #1c99e6;
+    color: #fff;
+  }
+  
+  #instagram {
+    color: #cb2770;
+    border: 1px solid #cb2770;
+  }
+  #instagram:hover {
+    background-color: #cb2770;
+    color: #fff;
+  }
+  
+  #whatsapp {
+    color: red;
+    border: 1px solid red;
+  }
+  #whatsapp:hover {
+    background-color: red;
+    color: #fff;
+  }
+  
+  #telegram {
+    color: #0081c2;
+    border: 1px solid #0081c2;
+  }
+  #telegram:hover {
+    background-color: #0081c2;
+    color: #fff;
+  }
+  
